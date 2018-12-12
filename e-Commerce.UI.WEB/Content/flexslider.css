@@ -1,0 +1,33 @@
+﻿
+    @-webkit-keyframes sliders{
+        0% {left:0px;}
+        10% {left:0px;}
+        20% {left:900px;}
+        30% {left:900px;}
+        40% {left:-1800px;}
+        50% {left:-1800px;}
+    }
+    @-moz-keyframes sliders{
+        0% {left:0px;}
+        10% {left:0px;}
+        20% {left:-1000px;}
+        30% {left:1000px;}
+        40% {left:-2000px;}
+        50% {left:-2000px;}
+    }
+    @-ms-keyframes sliders {
+        0% {left:0px;}
+        10% {left:0px;}
+        20% {left:-1000px;}
+        30% {left:-2000px;}
+        40% {left:-2000px;}
+        50% {left:-2000px;}
+    }
+    @keyframes sliders{
+        0% {left:0px;}
+        10% {left:0px;}
+        20% {left:-1000px;}
+        30% {left:-1000px;}
+        40% {left:-2000px;}
+        50% {left:-2000px;}
+    }

@@ -1,0 +1,170 @@
+﻿@model List<e_Commerce.Core.Model.Entity.Product>
+@{
+    ViewBag.Title = "Index";
+    var islogin = (bool)ViewBag.islogin;
+}
+<link href="~/Content/flexslider.css" rel="stylesheet" />
+<h2> </h2>
+
+
+<div id="slider-wrapper">
+    <div class="slider">
+        <a class="img-bir">
+            <img src="https://www.lezzetlihediye.com/Content/showcase/ucretsiz-teslimat.jpg">
+        </a>
+        <a class="img-iki">
+            <img src="https://www.lezzetlihediye.com/Content/showcase/Turkiye-kazanacak.jpg">
+        </a>
+        <a class="img-uc">
+            <img src="https://www.lezzetlihediye.com/Content/showcase/Ekim-hediye.jpg">
+        </a>
+    </div>
+</div>
+
+<style>
+    .alt {
+        margin-top: -65px;
+    }
+</style>
+<div class="body-content alt">
+    @{
+        foreach (var item in Model)
+        {
+            <div class="">
+                <div class="productBox">
+                    <p class="title">@item.Name</p>
+                    <img src="@item.ImageUrl" />
+                    <p class="title">
+                        @item.Brand
+                    </p>
+                    <p class="title">
+                        @item.Price.ToString("##,## ₺")
+                    </p>
+                    <p class="title">
+                        @item.Description
+                    </p>
+                    <a href="/urun/@item.Name.Replace(" ","-")/@item.ID" class="btn btn-success">İncele</a>
+                    @if (ViewBag.islogin)
+                    {
+                        <a href="/#" data-pID="@item.ID" class="btn btn-default addBasket"><i class="fas fa-shopping-basket"></i>Sepete At</a>
+                    }
+
+                </div>
+            </div>
+
+        }
+    }
+</div>
+
+<style>
+    #slider-wrapper{
+        position: relative;
+        width:1000px;
+        height:400px;
+        overflow: hidden;
+        margin-left: 75px;
+    }
+
+    .img-bir, .img-iki, .img-uc{
+        position: absolute;
+        width:1000px;
+        height:400px;
+    }
+
+    .img-bir{left: 0px;}
+    .img-iki{left: 1000px;}
+    .img-uc{left: 2000px;}
+
+    #slider-wrapper > .slider{
+        position: absolute;
+        left:0px;
+        width: 40000px;
+        height: 400px;
+        -webkit-animation-duration: 15s;
+        -webkit-animation-name: sliders;
+        -webkit-animation-iteration-count:infinite;
+        -moz-animation-duration: 15s;
+        -moz-animation-name: sliders;
+        -moz-animation-iteration-count:infinite;
+        -ms-animation-duration: 15s;
+        -ms-animation-name: sliders;
+        -ms-animation-iteration-count:infinite;
+        animation-duration: 15s;
+        animation-iteration-count:infinite;
+
+    }
+    #slider-wrapper > .slider:hover{
+        -webkit-animation-play-state:paused;
+    }
+    /*#slider-wrapper > .slider > a > span{
+        position:absolute;
+        background:#333;
+        color:white;
+        left:0;
+        top:80%;
+        padding:8px 22px;
+        display:table;
+    }*/
+    #slider-wrapper a{
+        font-size:18px;
+        font-family:Arial;
+    }
+
+</style>
+
+<div id="andModal" class="hide" title="Teşekkürler :)">
+    Ürün Sepete atıldı.<br />
+    <a href="/Sepetim" class="btn btn-success">Sepeti Gör</a>
+</div>
+<style>
+    .productBox {
+        width: 200px;
+        float: left;
+        margin: 10px;
+        border: 2px solid #e8e7e7;
+        padding: 10px;
+    }
+
+    .productBox img {
+        width: 100%;
+    }
+
+    .title {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .productBox p {
+        text-align: center;
+    }
+</style>
+
+@section script{
+    <script type="text/javascript">
+        $(function () {
+            $("#andModal").dialog({
+
+                autoOpen: false,
+                show: {
+                    effect: "blind",
+                    duration: 1000
+                },
+                hide: {
+                    effect: "explode",
+                    duration: 1000
+                }
+            });
+
+            $(".addBasket").on("click", function () {
+                var pid = $(this).attr("data-pID");
+                $.post("/Basket/AddProduct?productID=" + pid + "&&quantity=1", function (data) {
+                    $("#andModal").dialog("open");
+                });
+                return false;
+            });
+        });
+    </script>
+}
+
+
+<div class="row"></div>

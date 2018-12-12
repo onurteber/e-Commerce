@@ -1,0 +1,49 @@
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\bin\Debug\e-Commerce.Core.Model.dll.config
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\bin\Debug\e-Commerce.Core.Model.dll
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\bin\Debug\e-Commerce.Core.Model.pdb
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\bin\Debug\EntityFramework.dll
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\bin\Debug\EntityFramework.xml
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\obj\Debug\e_Commerce.Core.Model.csproj.CoreCompileInputs.cache
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\obj\Debug\e_Commerce.Core.Model.csproj.CopyComplete
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\obj\Debug\e-Commerce.Core.Model.dll
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\obj\Debug\e-Commerce.Core.Model.pdb
+C:\Users\TEBER\Desktop\New folder\e-Commerce\e-Commerce.Core.Model\bin\Debug\e-Commerce.Core.Model.dll.config
+C:\Users\TEBER\Desktop\New folder\e-Commerce\e-Commerce.Core.Model\bin\Debug\e-Commerce.Core.Model.dll
+C:\Users\TEBER\Desktop\New folder\e-Commerce\e-Commerce.Core.Model\bin\Debug\e-Commerce.Core.Model.pdb
+C:\Users\TEBER\Desktop\New folder\e-Commerce\e-Commerce.Core.Model\bin\Debug\EntityFramework.xml
+C:\Users\TEBER\Desktop\New folder\e-Commerce\e-Commerce.Core.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\TEBER\Desktop\New folder\e-Commerce\e-Commerce.Core.Model\obj\Debug\e_Commerce.Core.Model.csprojAssemblyReference.cache
+C:\Users\TEBER\Desktop\New folder\e-Commerce\e-Commerce.Core.Model\obj\Debug\e_Commerce.Core.Model.csproj.CoreCompileInputs.cache
+C:\Users\TEBER\Desktop\New folder\e-Commerce\e-Commerce.Core.Model\obj\Debug\e_Commerce.Core.Model.csproj.CopyComplete
+C:\Users\TEBER\Desktop\New folder\e-Commerce\e-Commerce.Core.Model\obj\Debug\e-Commerce.Core.Model.dll
+C:\Users\TEBER\Desktop\New folder\e-Commerce\e-Commerce.Core.Model\obj\Debug\e-Commerce.Core.Model.pdb
+C:\Users\Halilibrahim\Desktop\e-Commerce1\e-Commerce.Core.Model\bin\Debug\e-Commerce.Core.Model.dll.config
+C:\Users\Halilibrahim\Desktop\e-Commerce1\e-Commerce.Core.Model\bin\Debug\e-Commerce.Core.Model.dll
+C:\Users\Halilibrahim\Desktop\e-Commerce1\e-Commerce.Core.Model\bin\Debug\e-Commerce.Core.Model.pdb
+C:\Users\Halilibrahim\Desktop\e-Commerce1\e-Commerce.Core.Model\bin\Debug\EntityFramework.xml
+C:\Users\Halilibrahim\Desktop\e-Commerce1\e-Commerce.Core.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Halilibrahim\Desktop\e-Commerce1\e-Commerce.Core.Model\obj\Debug\e_Commerce.Core.Model.csprojAssemblyReference.cache
+C:\Users\Halilibrahim\Desktop\e-Commerce1\e-Commerce.Core.Model\obj\Debug\e_Commerce.Core.Model.csproj.CoreCompileInputs.cache
+C:\Users\Halilibrahim\Desktop\e-Commerce1\e-Commerce.Core.Model\obj\Debug\e_Commerce.Core.Model.csproj.CopyComplete
+C:\Users\Halilibrahim\Desktop\e-Commerce1\e-Commerce.Core.Model\obj\Debug\e-Commerce.Core.Model.dll
+C:\Users\Halilibrahim\Desktop\e-Commerce1\e-Commerce.Core.Model\obj\Debug\e-Commerce.Core.Model.pdb
+C:\Users\TEBER\Desktop\eticaretsitesi\e-Commerce1\e-Commerce.Core.Model\bin\Debug\e-Commerce.Core.Model.dll.config
+C:\Users\TEBER\Desktop\eticaretsitesi\e-Commerce1\e-Commerce.Core.Model\bin\Debug\e-Commerce.Core.Model.dll
+C:\Users\TEBER\Desktop\eticaretsitesi\e-Commerce1\e-Commerce.Core.Model\bin\Debug\e-Commerce.Core.Model.pdb
+C:\Users\TEBER\Desktop\eticaretsitesi\e-Commerce1\e-Commerce.Core.Model\bin\Debug\EntityFramework.xml
+C:\Users\TEBER\Desktop\eticaretsitesi\e-Commerce1\e-Commerce.Core.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\TEBER\Desktop\eticaretsitesi\e-Commerce1\e-Commerce.Core.Model\obj\Debug\e_Commerce.Core.Model.csprojAssemblyReference.cache
+C:\Users\TEBER\Desktop\eticaretsitesi\e-Commerce1\e-Commerce.Core.Model\obj\Debug\e_Commerce.Core.Model.csproj.CoreCompileInputs.cache
+C:\Users\TEBER\Desktop\eticaretsitesi\e-Commerce1\e-Commerce.Core.Model\obj\Debug\e_Commerce.Core.Model.csproj.CopyComplete
+C:\Users\TEBER\Desktop\eticaretsitesi\e-Commerce1\e-Commerce.Core.Model\obj\Debug\e-Commerce.Core.Model.dll
+C:\Users\TEBER\Desktop\eticaretsitesi\e-Commerce1\e-Commerce.Core.Model\obj\Debug\e-Commerce.Core.Model.pdb
+C:\Users\TEBER\Desktop\e-Commerce\e-Commerce.Core.Model\bin\Debug\e-Commerce.Core.Model.dll.config
+C:\Users\TEBER\Desktop\e-Commerce\e-Commerce.Core.Model\bin\Debug\e-Commerce.Core.Model.dll
+C:\Users\TEBER\Desktop\e-Commerce\e-Commerce.Core.Model\bin\Debug\e-Commerce.Core.Model.pdb
+C:\Users\TEBER\Desktop\e-Commerce\e-Commerce.Core.Model\obj\Debug\e_Commerce.Core.Model.csprojAssemblyReference.cache
+C:\Users\TEBER\Desktop\e-Commerce\e-Commerce.Core.Model\obj\Debug\e_Commerce.Core.Model.csproj.CoreCompileInputs.cache
+C:\Users\TEBER\Desktop\e-Commerce\e-Commerce.Core.Model\obj\Debug\e_Commerce.Core.Model.csproj.CopyComplete
+C:\Users\TEBER\Desktop\e-Commerce\e-Commerce.Core.Model\obj\Debug\e-Commerce.Core.Model.dll
+C:\Users\TEBER\Desktop\e-Commerce\e-Commerce.Core.Model\obj\Debug\e-Commerce.Core.Model.pdb

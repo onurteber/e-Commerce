@@ -1,0 +1,12 @@
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\bin\Debug\e-Commerce.Core.Model.dll.config
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\bin\Debug\e-Commerce.Core.Model.dll
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\bin\Debug\e-Commerce.Core.Model.pdb
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\bin\Debug\EntityFramework.dll
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\bin\Debug\EntityFramework.xml
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\obj\Debug\e-Commerce.Core.Model.csprojAssemblyReference.cache
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\obj\Debug\e-Commerce.Core.Model.csproj.CoreCompileInputs.cache
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\obj\Debug\e-Commerce.Core.Model.csproj.CopyComplete
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\obj\Debug\e-Commerce.Core.Model.dll
+C:\Users\TEBER\source\repos\e-Commerce\e-Commerce.Core.Model\obj\Debug\e-Commerce.Core.Model.pdb

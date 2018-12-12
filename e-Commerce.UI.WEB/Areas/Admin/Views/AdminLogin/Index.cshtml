@@ -1,0 +1,62 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html style="" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Girişi</title>
+    <link href="/Content/Site.css" rel="stylesheet" type="text/css">
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="/Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body style="">
+    <div class="container body-content" style="margin-left:560px;margin-top:100px">
+
+
+
+        <h2>Admin Girişi</h2>
+        <style>
+            .left {
+                width: 220px;
+                float: left;
+                margin: 5px;
+            }
+
+            .right {
+                width: 120px;
+                float: left;
+            }
+        </style>
+
+        <form method="post">
+            @*@Html.BeginForm("Giriş", "AdminLogin", FormMethod.Post,new { @class="from-group"})
+        {*@
+            @Html.Label("Email")
+            @Html.TextBox("Email")
+            <br />
+            @Html.Label("Şifre")
+            @Html.Password("Password")
+            <br /><br />
+            <button type="submit">Giriş Yap</button>
+            @*}*@
+        </form>
+        <br />
+        <footer>
+            <p>© 2018 - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    <script src="/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+
+</body>
+</html>

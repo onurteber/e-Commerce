@@ -1,0 +1,37 @@
+﻿using e_Commerce.Core.Model.Entity;
+using System;
+using System.Collections.Generic;
+using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Conventions;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace e_Commerce.Core.Model
+{
+    public class ComDB : DbContext
+    {
+        public ComDB() 
+            :base(@"Data Source=DESKTOP-U9NJNBS;Initial Catalog=e-CommerceDB;Integrated Security=True;")
+        {
+        }
+
+        public DbSet<User> Users { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<UserAdress> UserAdress { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Status> Statuses { get; set; }
+        public DbSet<Basket> Baskets { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderProduct> OrderProducts { get; set; }
+        public DbSet<OrderPayment> OrderPayments { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
+            base.OnModelCreating(modelBuilder);
+        }
+
+
+    }
+}

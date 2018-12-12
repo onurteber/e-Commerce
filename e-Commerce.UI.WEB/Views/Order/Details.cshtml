@@ -1,0 +1,79 @@
+﻿@model e_Commerce.Core.Model.Entity.Order
+@{
+    ViewBag.Title = "Sipariş Detayı";
+}
+
+<h2>@Model.ID No'lu Siparişin Durumu: @Model.Status.Name</h2>
+<hr />
+<hr />
+
+<b>Banka Bilgileri</b>
+<table class="tbl table-bordered">
+    <thead>
+        <tr>
+            <th>Banka</th>
+            <th>İban No</th>
+            <th>Alıcı Adı</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Banka İsmi</td>
+            <td>İban No</td>
+            <td>İasdasd</td>
+        </tr>
+    </tbody>
+</table>
+
+@if (Model.StatusID == 1)
+{
+    <a href="/Order/Pay?id=@Model.ID" class="btn btn-success">Ödeme Yaptım</a>
+}
+<hr />
+<hr />
+
+<b>Sipariş Bilgileri</b>
+
+
+<table class="tbl table-bordered">
+    <thead>
+        <tr>
+            <th>Toplam Tutar</th>
+            <th>Ürünler Toplamı</th>
+            <th>Vergi Toplamı</th>
+            <th>İndirim</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.TotalPrice.ToString("##,## ₺")</td>
+            <td>@Model.TotalProductPrice.ToString("##,## ₺")</td>
+            <td>@Model.TotalTaxPrice.ToString("##,## ₺")</td>
+            <td>@Model.TotalDiscount.ToString("##,## ₺")</td>
+        </tr>
+    </tbody>
+</table>
+<hr />
+<hr />
+
+<b>Ürünler</b>
+
+
+<table class="tbl table-bordered">
+    <thead>
+        <tr>
+            <th>Toplam Tutar</th>
+            <th>Ürünler Toplamı</th>
+            <th>Vergi Toplamı</th>
+            <th>İndirim</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.TotalPrice.ToString("##,## ₺")</td>
+            <td>@Model.TotalProductPrice.ToString("##,## ₺")</td>
+            <td>@Model.TotalTaxPrice.ToString("##,## ₺")</td>
+            <td>@Model.TotalDiscount.ToString("##,## ₺")</td>
+        </tr>
+    </tbody>
+</table>

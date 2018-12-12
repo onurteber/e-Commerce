@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Admin";
+    var user = Session["AdminLoginUser"] as e_Commerce.Core.Model.Entity.User;
+}
+
+<h2>Sayın @user.Name @user.LastName Admine Hoş Geldiniz</h2>
+
+
+<table class="table">
+    <tr>
+        <td>
+            <a href="/Admin/Users">=>      Kullanıcı Yönetimi</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/Admin/Products">=>      Ürün Yönetimi</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/Admin/Categories">=>      Kategori Yönetimi</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/Admin/AdminOrders">=>      Sipariş Yönetimi Yönetimi</a>
+        </td>
+    </tr>
+</table>
+
+
+@*<ul>
+    <li>
+        <a href="/Admin/Users">Kullanıcı Yönetimi</a>
+    </li>
+    <li>
+        <a href="/Admin/Products">Ürün Yönetimi</a>
+    </li>
+    <li>
+        <a href="/Admin/Categories">Kategori Yönetimi</a>
+    </li>
+    <li>
+        <a href="/Admin/AdminOrders">Sipariş Yönetimi Yönetimi</a>
+    </li>
+</ul>*@
+
